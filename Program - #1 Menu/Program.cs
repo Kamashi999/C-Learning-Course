@@ -9,7 +9,7 @@ Console.WriteLine("2 - Dodawanie");
 Console.WriteLine("3 - Odejmowanie");
 Console.WriteLine("4 - Przywitanie");
 
-back1:
+back:
 
 string input = Console.ReadLine();
 
@@ -71,7 +71,7 @@ switch (input)
         break;
     default:
         Console.WriteLine("Wybierz liczbę od 1-3!");
-        goto back1;
+        goto back;
         break;
 }
 
