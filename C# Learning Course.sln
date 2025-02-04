@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command - Parse", "Command 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program - #1 Menu", "Program - #1 Menu\Program - #1 Menu.csproj", "{94C909DE-FABA-4B3A-AD98-C23226F2E120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command - Function", "Command - Function\Command - Function.csproj", "{DDE8EC48-E27A-4CB4-AD89-0F2D8F8719B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command - Function", "Command - Function\Command - Function.csproj", "{DDE8EC48-E27A-4CB4-AD89-0F2D8F8719B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program - #2 Calculator", "Program - #2 Calculator\Program - #2 Calculator.csproj", "{AD4AA69C-50B8-4916-9425-E3E23ABD4640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{DDE8EC48-E27A-4CB4-AD89-0F2D8F8719B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE8EC48-E27A-4CB4-AD89-0F2D8F8719B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE8EC48-E27A-4CB4-AD89-0F2D8F8719B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4AA69C-50B8-4916-9425-E3E23ABD4640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4AA69C-50B8-4916-9425-E3E23ABD4640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4AA69C-50B8-4916-9425-E3E23ABD4640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4AA69C-50B8-4916-9425-E3E23ABD4640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
