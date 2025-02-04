@@ -29,7 +29,7 @@ float NumberA()
 float NumberB()
 {
     float b;
-    Console.WriteLine("Please, type your first number: ");
+    Console.WriteLine("Please, type your second number: ");
     if (float.TryParse(Console.ReadLine(), out b))
     {
         Console.Clear();
