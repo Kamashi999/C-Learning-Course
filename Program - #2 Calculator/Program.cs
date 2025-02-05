@@ -35,7 +35,45 @@ float NumberB()
         Console.Clear();
         return b;
     }
-    return NumberA();
+    return NumberB();
+}
+float NumberADivision()
+{
+    float a;
+    Console.WriteLine("Please, type your second number: ");
+    if (float.TryParse(Console.ReadLine(), out a))
+    {
+        if (a == 0)
+        {
+            Console.WriteLine("You can't Division by 0!");
+            return NumberADivision();
+        }
+        else
+        {
+            Console.Clear();
+            return a;
+        }
+    }
+    return NumberADivision();
+}
+float NumberBDivision()
+{
+    float b;
+    Console.WriteLine("Please, type your second number: ");
+    if (float.TryParse(Console.ReadLine(), out b))
+    {
+        if (b == 0)
+        {
+            Console.WriteLine("You can't Division by 0!");
+            return NumberBDivision();
+        }
+        else
+        {
+            Console.Clear();
+            return b;
+        }
+    } 
+    return NumberBDivision();
 }
 
 
@@ -59,8 +97,8 @@ float Multiplication()
 
 float Division()
 {
-    float division = NumberA() / NumberB();
-    return division;
+        float division = NumberADivision() / NumberBDivision();
+        return division;
 }
 
 
