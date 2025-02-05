@@ -40,7 +40,7 @@ float NumberB()
 float NumberADivision()
 {
     float a;
-    Console.WriteLine("Please, type your second number: ");
+    Console.WriteLine("Please, type your first number: ");
     if (float.TryParse(Console.ReadLine(), out a))
     {
         if (a == 0)
