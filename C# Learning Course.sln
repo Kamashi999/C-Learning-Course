@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox - #1", "Sandbox - #
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command - Arrays", "Command - Arrays\Command - Arrays.csproj", "{34BA2CDF-37B8-4814-9325-F33409F16B84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program - #3 User Database", "Program - #3 User Database\Program - #3 User Database.csproj", "{3D1E3F0F-2AA2-455C-9B9F-99C46992163E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Program - #3 User Database", "Program - #3 User Database\Program - #3 User Database.csproj", "{3D1E3F0F-2AA2-455C-9B9F-99C46992163E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command - Loop Foreach", "Command - Loop Foreach\Command - Loop Foreach.csproj", "{97C00DD9-37D9-4D50-A425-1A6F0D961652}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{3D1E3F0F-2AA2-455C-9B9F-99C46992163E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D1E3F0F-2AA2-455C-9B9F-99C46992163E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D1E3F0F-2AA2-455C-9B9F-99C46992163E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C00DD9-37D9-4D50-A425-1A6F0D961652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C00DD9-37D9-4D50-A425-1A6F0D961652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C00DD9-37D9-4D50-A425-1A6F0D961652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C00DD9-37D9-4D50-A425-1A6F0D961652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
