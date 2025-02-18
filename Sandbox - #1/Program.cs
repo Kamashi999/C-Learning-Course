@@ -51,25 +51,28 @@
 //}
 
 
-Console.WriteLine("Welcome, wanna try create your table?\nEnter amount of names u wanna have in your array:");
+//Console.WriteLine("Welcome, wanna try create your table?\nEnter amount of names u wanna have in your array:");
 
-int arraySize = Int32.Parse(Console.ReadLine());
+//int arraySize = Int32.Parse(Console.ReadLine());
 
-string[] names = new string[arraySize];
-
-
-for (int i = 0; i < names.Length; i++)
-{
-    Console.WriteLine("write first name: ");
-    names[i] = Console.ReadLine();
-}
-
-Console.ReadKey();
-
-for (int i = 0; i < names.Length; i++)
-{
-    Console.WriteLine(names[i]);
-}
+//string[] names = new string[arraySize];
 
 
+//for (int i = 0; i < names.Length; i++)
+//{
+//    Console.WriteLine("write first name: ");
+//    names[i] = Console.ReadLine();
+//}
+
+//Console.ReadKey();
+
+//for (int i = 0; i < names.Length; i++)
+//{
+//    Console.WriteLine(names[i]);
+//}
+
+Random rand = new Random();
+int randNumber = rand.Next(0, 1);
+
+Console.WriteLine(randNumber);
 
