@@ -71,8 +71,31 @@
 //    Console.WriteLine(names[i]);
 //}
 
-Random rand = new Random();
-int randNumber = rand.Next(0, 1);
+//using System.Reflection.Metadata.Ecma335;
 
-Console.WriteLine(randNumber);
+//Random rand = new Random();
+//int randNumber = rand.Next(0, 1);
 
+//Console.WriteLine(randNumber);
+
+public class Samochod
+{
+    private string marka = "Toyota"; // Pole private
+    public string rocznik = "2009";
+
+    public string PobierzMarke() // Metoda publiczna (getter)
+    {
+        return marka;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Samochod auto = new Samochod(); // Tworzymy obiekt
+        Console.WriteLine(auto.PobierzMarke()); // ✅ OK, bo metoda jest publiczna
+
+        Console.WriteLine(auto.rocznik);
+    }
+}
