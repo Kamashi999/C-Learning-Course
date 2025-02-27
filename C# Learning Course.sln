@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command - List", "Command -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program - #4 Notepad", "Program - #4 Notepad\Program - #4 Notepad.csproj", "{BBD2789A-6A43-40A7-8582-CF1ABC89E7F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command - Save Data in txt", "Command - Save Data in txt\Command - Save Data in txt.csproj", "{51247D87-4CA5-4EEC-8B9F-4EAB844CCB65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{BBD2789A-6A43-40A7-8582-CF1ABC89E7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD2789A-6A43-40A7-8582-CF1ABC89E7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD2789A-6A43-40A7-8582-CF1ABC89E7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51247D87-4CA5-4EEC-8B9F-4EAB844CCB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51247D87-4CA5-4EEC-8B9F-4EAB844CCB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51247D87-4CA5-4EEC-8B9F-4EAB844CCB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51247D87-4CA5-4EEC-8B9F-4EAB844CCB65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
