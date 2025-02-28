@@ -1,7 +1,10 @@
 ﻿string fileName = "file.txt";
 string path = Path.Combine(@"Myfiles\" + fileName);
+
 List<string> lines = new();
 string l;
+
+
 if (File.Exists(path))
 {
     using (StreamReader sr = new(path))
@@ -12,5 +15,7 @@ if (File.Exists(path))
         }
 
         Console.WriteLine(lines[1]);
+        sr.Close();
     }
+    
 }
