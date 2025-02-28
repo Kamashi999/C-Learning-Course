@@ -31,3 +31,4 @@ foreach (string name in names2)
 // W przeciwieństwie do tablic, w listach do policzenia ilości w tym przypadku imion korzystamy z .Count
 
 Console.WriteLine(names2.Count);
+Console.WriteLine(names2[2]);
