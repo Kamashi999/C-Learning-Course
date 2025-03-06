@@ -100,8 +100,25 @@
 //    }
 //}
 
-string path = "txt.json";
-string text = Console.ReadLine();
+//string path = "txt.json";
+//string text = Console.ReadLine();
 
-File.WriteAllText(path, text);
-Console.WriteLine(File.ReadAllText(path));
+//File.WriteAllText(path, text);
+//Console.WriteLine(File.ReadAllText(path));
+
+string path = "txt.json";
+//string text = Console.ReadLine();
+
+//using (StreamWriter sw = new StreamWriter(path, true))
+//{
+//    sw.WriteLine(text);
+//}
+
+using (StreamReader sr = new StreamReader(path))
+{
+    string line;
+    while ((line = sr.ReadLine()) !=null)
+    {
+        Console.WriteLine(line);
+    }
+}
