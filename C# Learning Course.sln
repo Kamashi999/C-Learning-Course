@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command - Save Data in txt"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command - Read Data from txt", "Command - Read Data from txt\Command - Read Data from txt.csproj", "{6AFD7075-1C87-4AD9-A8C7-EF00D964AAB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command - OOP", "Command - OOP\Command - OOP.csproj", "{E09A59A0-EBB2-4D1B-A779-7462EE105CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command - OOP2", "Command - OOP2\Command - OOP2.csproj", "{E9035212-D3C6-45D6-BCE2-712B11A39D1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{6AFD7075-1C87-4AD9-A8C7-EF00D964AAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AFD7075-1C87-4AD9-A8C7-EF00D964AAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AFD7075-1C87-4AD9-A8C7-EF00D964AAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09A59A0-EBB2-4D1B-A779-7462EE105CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09A59A0-EBB2-4D1B-A779-7462EE105CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09A59A0-EBB2-4D1B-A779-7462EE105CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09A59A0-EBB2-4D1B-A779-7462EE105CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9035212-D3C6-45D6-BCE2-712B11A39D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9035212-D3C6-45D6-BCE2-712B11A39D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9035212-D3C6-45D6-BCE2-712B11A39D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9035212-D3C6-45D6-BCE2-712B11A39D1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
