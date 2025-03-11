@@ -1,4 +1,6 @@
-﻿public abstract class Car // klasa bazowa (Abstrakcja)
+﻿
+
+public abstract class Car // klasa bazowa (Abstrakcja)
 {
     public int Year { get; set; }
 
@@ -15,13 +17,13 @@ public class VW : Car // Klasa VW dziedziczy właściwości z klasy Car
         }
 }
 
-public class Audi
+public class Audi : Car
 {
     public Car Car { get; set; } // kompozycja
     public Audi()
     {
-        Car.Year = 2019;
-        Car.HorsePower = 200;
+        Year = 2019;
+        HorsePower = 200;
     }
 }
 
@@ -63,7 +65,7 @@ public class SomeClass
         var car = new Car2();
 
         car.Year = 2024;
-        car.year = 1999; // Hermetyzacja jest potrzebna żeby dane wrażliwe były tylko dla wglądu w kodzie.
+        //car.year = 1999; // Hermetyzacja jest potrzebna żeby dane wrażliwe były tylko dla wglądu w kodzie.
 
     }
 }
@@ -71,3 +73,24 @@ public class SomeClass
 // internal - działa tak, że wewnątrz działa tak jak public. Jeżeli public jest w projekcie 1, to widać go w projekcie 2. a Internala widać tylko w projekcie 1
 
 // protected - pozwala na dostęp do pola tylko w klasie bazowej i klasach pochodnych.
+
+// polimorfizm:
+
+
+
+public class Program
+{
+    public static void Drive(Car car)
+    {
+        Console.WriteLine($"Jadę {car} o mocy {car.HorsePower} z rocznika {car.Year}");
+    }
+
+    public static void Main()
+    {
+        Car golf = new VW();
+        Car audi = new Audi();
+
+        Drive(golf);
+        Drive(audi);
+    }
+}
