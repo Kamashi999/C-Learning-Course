@@ -2,7 +2,7 @@
 
 public abstract class Car // klasa bazowa (Abstrakcja)
 {
-    public int Year { get; set; }
+    protected int Year { get; set; }
 
     public int HorsePower { get; set; }
 }
@@ -66,6 +66,7 @@ public class SomeClass
 
         car.Year = 2024;
         //car.year = 1999; // Hermetyzacja jest potrzebna żeby dane wrażliwe były tylko dla wglądu w kodzie.
+        car.HorsePower = 1;
 
     }
 }
@@ -89,6 +90,8 @@ public class Program
     {
         Car golf = new VW();
         Car audi = new Audi();
+
+        golf.Year = 2021;
 
         Drive(golf);
         Drive(audi);
